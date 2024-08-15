@@ -60,7 +60,7 @@ def compute_metrics():
     return mse_train, mae_train, r2_train, mse_test, mae_test, r2_test
 
 
-def run_grading():
+def test_run_grading():
     """Run grading script."""
 
     mse_train, mae_train, r2_train, mse_test, mae_test, r2_test = compute_metrics()
@@ -75,4 +75,4 @@ def run_grading():
 
 
 if __name__ == "__main__":
-    run_grading()
+    test_run_grading()
